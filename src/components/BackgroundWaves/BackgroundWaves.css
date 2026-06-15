@@ -1,0 +1,95 @@
+.background-waves {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+  isolation: isolate;
+
+  --background-color: #3d3d3d;
+  --purple-wave: #c83cff;
+  --blue-wave: #3564ff;
+  --red-wave: #ff2828;
+  --yellow-wave: #ffb700;
+  --green-wave: #4db225;
+}
+
+.background-waves::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+
+}
+
+.background-waves__svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  filter: blur(5px);
+  transform: scale(1.1);
+}
+
+.background-waves__base {
+  fill: var(--background-color);
+}
+
+.background-waves__shape--purple {
+  fill: var(--purple-wave);
+}
+
+.background-waves__shape--blue {
+  fill: var(--blue-wave);
+}
+
+.background-waves__shape--red {
+  fill: var(--red-wave);
+}
+
+.background-waves__shape--yellow {
+  fill: var(--yellow-wave);
+}
+
+.background-waves__shape--green {
+  fill: var(--green-wave);
+}
+
+.background-waves--about {
+  --purple-wave: #c83cff;
+  --blue-wave: #c83cff;
+  --red-wave: #c83cff;
+  --yellow-wave: #c83cff;
+  --green-wave: #c83cff;
+}
+
+.background-waves--projects {
+  --purple-wave: #3564ff;
+  --blue-wave: #3564ff;
+  --red-wave: #3564ff;
+  --yellow-wave: #3564ff;
+  --green-wave: #3564ff;
+}
+
+.background-waves--skills {
+  --purple-wave: #ff2828;
+  --blue-wave: #ff2828;
+  --red-wave: #ff2828;
+  --yellow-wave: #ff2828;
+  --green-wave: #ff2828;
+}
+
+.background-waves--timeline {
+  --purple-wave: #ffb700;
+  --blue-wave: #ffb700;
+  --red-wave: #ffb700;
+  --yellow-wave: #ffb700;
+  --green-wave: #ffb700;
+}
+
+.background-waves--contact {
+  --purple-wave: #4db225;
+  --blue-wave: #4db225;
+  --red-wave: #4db225;
+  --yellow-wave: #4db225;
+  --green-wave: #4db225;
+}

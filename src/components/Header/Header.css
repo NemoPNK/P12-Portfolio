@@ -1,0 +1,56 @@
+.header {
+  position: relative;
+  height: 120px;
+
+  background-image: url("../../assets/HeaderWave.svg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+}
+
+.header__nav {
+  height: 100%;
+  display: flex;
+  padding: 20px 0px 0px 0px;
+  justify-content: space-around;
+}
+
+.header__nav a {
+  color: white;
+  font-size: 2rem;
+}
+
+.header__nav a:nth-child(1):hover {
+  background: linear-gradient(
+    90deg,
+    #ff2828,
+    #ffb700,
+    #4db225,
+    #3564ff,
+    #c83cff
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.header__nav a:nth-child(2):hover {
+  color: #c83cff;
+}
+
+.header__nav a:nth-child(3):hover {
+  color: #3564ff;
+}
+
+.header__nav a:nth-child(4):hover {
+  color: #ff2828;
+}
+
+.header__nav a:nth-child(5):hover {
+  color: #ffb700;
+}
+
+.header__nav a:nth-child(6):hover {
+  color: #4db225;
+}
