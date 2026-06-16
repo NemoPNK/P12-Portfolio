@@ -37,11 +37,11 @@ function Home() {
           David
         </h1>
 
-        <h2>Web integrator</h2>
+        <h2>Intégrateur web</h2>
 
         <div className="home__buttons">
           <HomeBtn
-            label="ABOUT"
+            label="À PROPOS"
             to="/about"
             color="#C83CFF"
             viewBox={homeButtons.about.viewBox}
@@ -49,7 +49,7 @@ function Home() {
           />
 
           <HomeBtn
-            label="PROJECTS"
+            label="PROJETS"
             to="/projects"
             color="#3564FF"
             viewBox={homeButtons.projects.viewBox}
@@ -57,7 +57,7 @@ function Home() {
           />
 
           <HomeBtn
-            label="SKILLS"
+            label="COMPÉTENCES"
             to="/skills"
             color="#FF2828"
             viewBox={homeButtons.skills.viewBox}
@@ -65,7 +65,7 @@ function Home() {
           />
 
           <HomeBtn
-            label="TIMELINE"
+            label="PARCOURS"
             to="/timeline"
             color="#FFB700"
             viewBox={homeButtons.timeline.viewBox}

@@ -1,0 +1,51 @@
+.footer {
+  position: relative;
+  height: 120px;
+  margin-top: 50px;
+  overflow: hidden;
+}
+
+.footer::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url('../../assets/HeaderWave.svg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  transform: rotate(180deg);
+}
+
+.footer__name {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 32px;
+  margin: 10px;
+}
+
+@media (max-width: 1180px) {
+  .footer {
+    height: 160px;
+  }
+
+  .footer__name {
+    font-size: clamp(20px, 5vw, 40px);
+    margin: 0px;
+  }
+}
+
+@media (max-width: 720px) {
+  .footer {
+    height: 150px;
+  }
+
+  .footer__name {
+    font-size: clamp(14px, 6vw, 40px);
+    margin: 0px;
+  }
+}

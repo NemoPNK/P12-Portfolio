@@ -5,15 +5,15 @@ function Header() {
   return (
     <header className="header">
       <nav className="header__nav">
-        <Link to="/">HOME</Link>
-        <Link to="/about">ABOUT</Link>
-        <Link to="/projects">PROJECTS</Link>
-        <Link to="/skills">SKILLS</Link>
-        <Link to="/timeline">TIMELINE</Link>
+        <Link to="/">ACCUEIL</Link>
+        <Link to="/about">À PROPOS</Link>
+        <Link to="/projects">PROJETS</Link>
+        <Link to="/skills">COMPÉTENCES</Link>
+        <Link to="/timeline">PARCOURS</Link>
         <Link to="/contact">CONTACT</Link>
       </nav>
     </header>
   );
 }
 
-export default Header;
+export default Header
