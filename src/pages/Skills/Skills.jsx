@@ -1,4 +1,5 @@
-import Header from '../components/Header/Header.jsx'
+import Header from '../../components/Header/Header.jsx'
+import './Skills.css'
 
 function Skills() {
   return (

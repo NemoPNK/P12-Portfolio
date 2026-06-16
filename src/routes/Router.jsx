@@ -1,11 +1,11 @@
 import { Routes, Route } from "react-router-dom";
 
-import Home from "../pages/Home";
-import About from "../pages/About";
-import Projects from "../pages/Projects";
-import Skills from "../pages/Skills";
-import Timeline from "../pages/Timeline";
-import Contact from "../pages/Contact";
+import Home from "../pages/Home/Home";
+import About from "../pages/About/About";
+import Projects from "../pages/Projects/Projects";
+import Skills from "../pages/Skills/Skills";
+import Timeline from "../pages/Timeline/Timeline";
+import Contact from "../pages/Contact/Contact";
 
 function Router() {
   return (
