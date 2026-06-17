@@ -43,7 +43,7 @@ function Home() {
         <div className="home__buttons">
           <HomeBtn
             label="À PROPOS"
-            to="/about"
+            to="/a-propos"
             color="#C83CFF"
             viewBox={homeButtons.about.viewBox}
             path={homeButtons.about.path}
@@ -51,7 +51,7 @@ function Home() {
 
           <HomeBtn
             label="PROJETS"
-            to="/projects"
+            to="/projets"
             color="#3564FF"
             viewBox={homeButtons.projects.viewBox}
             path={homeButtons.projects.path}
@@ -59,7 +59,7 @@ function Home() {
 
           <HomeBtn
             label="COMPÉTENCES"
-            to="/skills"
+            to="/competences"
             color="#FF2828"
             viewBox={homeButtons.skills.viewBox}
             path={homeButtons.skills.path}
@@ -67,7 +67,7 @@ function Home() {
 
           <HomeBtn
             label="PARCOURS"
-            to="/timeline"
+            to="/parcours"
             color="#FFB700"
             viewBox={homeButtons.timeline.viewBox}
             path={homeButtons.timeline.path}

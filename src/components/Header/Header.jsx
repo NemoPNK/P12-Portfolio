@@ -6,10 +6,10 @@ function Header() {
     <header className="header">
       <nav className="header__nav">
         <Link to="/">ACCUEIL</Link>
-        <Link to="/about">À PROPOS</Link>
-        <Link to="/projects">PROJETS</Link>
-        <Link to="/skills">COMPÉTENCES</Link>
-        <Link to="/timeline">PARCOURS</Link>
+        <Link to="/a-propos">À PROPOS</Link>
+        <Link to="/projets">PROJETS</Link>
+        <Link to="/competences">COMPÉTENCES</Link>
+        <Link to="/parcours">PARCOURS</Link>
         <Link to="/contact">CONTACT</Link>
       </nav>
     </header>

@@ -54,7 +54,7 @@
   fill: var(--green-wave);
 }
 
-.background-waves--about {
+.background-waves--a-propos {
   --purple-wave: #c83cff;
   --blue-wave: #c83cff;
   --red-wave: #c83cff;
@@ -62,7 +62,7 @@
   --green-wave: #c83cff;
 }
 
-.background-waves--projects {
+.background-waves--projets {
   --purple-wave: #3564ff;
   --blue-wave: #3564ff;
   --red-wave: #3564ff;
@@ -70,7 +70,7 @@
   --green-wave: #3564ff;
 }
 
-.background-waves--skills {
+.background-waves--competences {
   --purple-wave: #ff2828;
   --blue-wave: #ff2828;
   --red-wave: #ff2828;
@@ -78,7 +78,7 @@
   --green-wave: #ff2828;
 }
 
-.background-waves--timeline {
+.background-waves--parcours {
   --purple-wave: #ffb700;
   --blue-wave: #ffb700;
   --red-wave: #ffb700;
