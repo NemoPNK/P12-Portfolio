@@ -1,0 +1,42 @@
+
+
+.skills-page {
+  width: 100%;
+}
+
+.skills-section {
+  width: 90%;
+  margin: 30px auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 6%;
+}
+
+.skills-bubbles {
+  width: 42%;
+  max-width: 570px;
+}
+
+@media (max-width: 1180px) {
+  .skills-section {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .skills-bubbles {
+    width: 70%;
+  }
+}
+
+@media (max-width: 720px) {
+  .skills-section {
+    width: 92%;
+    margin-top: 40px;
+    gap: 40px;
+  }
+
+  .skills-bubbles {
+    width: 100%;
+  }
+}
