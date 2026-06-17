@@ -1,48 +1,46 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# P12-Portfolio
-
 # Portfolio - Léopold David
 
-Portfolio professionnel développé avec React afin de présenter mon parcours, mes compétences et les projets réalisés durant ma formation de Développeur Web.
+Portfolio professionnel développé avec React afin de présenter mon parcours, mes compétences et les principaux projets réalisés durant ma formation de Développeur Web.
+
+## Aperçu
+
+Ce portfolio met en avant :
+
+- Mon profil d’intégrateur web
+- Mon parcours de formation OpenClassrooms
+- Mes compétences techniques et outils de développement
+- Une sélection de projets réalisés durant ma formation
+- Mes coordonnées professionnelles
 
 ## Technologies utilisées
 
 - React
-- JavaScript
+- JavaScript (ES6+)
 - React Router
 - CSS3
 - Vite
 
 ## Installation
 
-1. Cloner le dépôt :
+### 1. Cloner le dépôt
 
 ```bash
-git clone <https://github.com/NemoPNK/P12-Portfolio/actions/runs/27636172802>
+git clone https://github.com/NemoPNK/P12-Portfolio.git
 ```
 
-2. Installer les dépendances :
+### 2. Accéder au projet
+
+```bash
+cd P12-Portfolio
+```
+
+### 3. Installer les dépendances
 
 ```bash
 npm install
 ```
 
-3. Lancer le serveur de développement :
+### 4. Lancer le projet en développement
 
 ```bash
 npm run dev
@@ -54,18 +52,28 @@ npm run dev
 npm run build
 ```
 
-## Déploiement
+## Prévisualiser le build
 
-Le portfolio est déployé en ligne et accessible depuis son URL de production.
+```bash
+npm run preview
+```
 
 ## Fonctionnalités
 
+- Navigation fluide entre les différentes pages
 - Présentation du profil et du parcours
 - Mise en avant des compétences techniques
-- Présentation des projets réalisés
-- Navigation entre les différentes sections du portfolio
-- Design responsive adapté aux différents appareils
+- Présentation détaillée des projets
+- Interface responsive (desktop, tablette et mobile)
+- Animations et interactions utilisateur
+
+## Déploiement
+
+Le projet est déployé en ligne et accessible depuis son URL de production.
 
 ## Auteur
 
-Léopold David
+**Léopold David**
+
+- GitHub : https://github.com/NemoPNK
+- LinkedIn : https://www.linkedin.com/in/léopold-david-1659b12b5/
