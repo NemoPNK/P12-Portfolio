@@ -2,7 +2,7 @@ import Header from '../../components/Header/Header.jsx'
 import PageTitle from '../../components/PageTitle/PageTitle.jsx'
 import AboutBubble from '../../components/AboutBubble/AboutBubble.jsx'
 import Footer from '../../components/Footer/Footer.jsx'
-import photoLeopold from '../../assets/Photo-Leopold.png'
+import photoLeopold from '../../assets/Photo-Leopold.webp'
 import './About.css'
 
 function About() {

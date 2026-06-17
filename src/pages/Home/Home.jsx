@@ -1,5 +1,6 @@
 import Header from '../../components/Header/Header.jsx'
 import HomeBtn from '../../components/HomeBtn/HomeBtn.jsx'
+import Footer from '../../components/Footer/Footer.jsx'
 import './Home.css'
 
 const homeButtons = {
@@ -81,6 +82,7 @@ function Home() {
           />
         </div>
       </main>
+      <Footer />
     </>
   )
 }
