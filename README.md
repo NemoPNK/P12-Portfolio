@@ -33,7 +33,7 @@ Portfolio professionnel développé avec React afin de présenter mon parcours, 
 1. Cloner le dépôt :
 
 ```bash
-git clone <url-du-repository>
+git clone <https://github.com/NemoPNK/P12-Portfolio/actions/runs/27636172802>
 ```
 
 2. Installer les dépendances :

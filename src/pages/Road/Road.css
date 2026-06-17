@@ -1,68 +1,124 @@
 .road-page {
-  width: 100%;
-  min-height: 70vh;
+    width: 100%;
+    min-height: 70vh;
+}
+
+.road-introduction,
+.road-ambitions__content {
+    width: 100%;
+    min-height: 650px;
+
+    background-image: url('../../assets/Road-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .road-introduction {
-  width: 100%;
-  margin: 70px 0 0;
-  min-height: 650px;
+    margin-top: 70px;
+}
 
-  background-image: url('../../assets/Road-bg.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100% 100%;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.road-ambitions {
+    width: 100%;
+    margin-top: 70px;
 }
 
 .road-introduction__content {
-  width: 90%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
-.road-introduction__content p {
-  color: white;
-  font-size: clamp(24px, 2vw, 40px);
-  line-height: 1.3;
-  text-align: center;
-  margin: 0;
+.road-ambitions__content {
+    padding: 0 5%;
+    gap: 20px;
+}
+
+.road-introduction__content p,
+.road-ambitions__content p {
+    margin: 0;
+    color: white;
+    font-size: clamp(24px, 2vw, 40px);
+    line-height: 1.3;
+    text-align: center;
+}
+
+.road-ambitions>h2 {
+    width: 90%;
+    margin: 50px 0px 50px 0px;
+    color: white;
+    text-align: left;
+    font-size: clamp(32px, 6vw, 60px);
+    text-align: center;
 }
 
 @media (max-width: 1180px) {
-  .road-introduction {
-    margin-top: 60px;
-    min-height: 600px;
-  }
 
-  .road-introduction__content {
-    width: 90%;
-  }
+    .road-introduction,
+    .road-ambitions__content {
+        min-height: 600px;
+    }
 
-  .road-introduction__content p {
-    font-size: clamp(20px, 3vw, 32px);
-  }
+    .road-introduction,
+    .road-ambitions {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .road-introduction__content {
+        width: 90%;
+    }
+
+    .road-introduction__content p,
+    .road-ambitions__content p {
+        font-size: clamp(20px, 3vw, 32px);
+    }
 }
 
 @media (max-width: 720px) {
-  .road-introduction {
-    margin-top: 45px;
-    min-height: 750px;
-  }
 
-  .road-introduction__content {
-    width: 86%;
-  }
+    .road-introduction,
+    .road-ambitions__content {
+        min-height: 750px;
+    }
 
-  .road-introduction__content p {
-    font-size: clamp(16px, 4.5vw, 26px);
-    line-height: 1.35;
-  }
+    .road-introduction,
+    .road-ambitions {
+        margin-top: 45px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .road-introduction__content {
+        width: 86%;
+    }
+
+    .road-ambitions__content {
+        padding: 0 7%;
+    }
+
+    .road-introduction__content p,
+    .road-ambitions__content p {
+        font-size: clamp(16px, 4.5vw, 26px);
+        line-height: 1.35;
+    }
+
+    .road-ambitions>h2 {
+        width: 86%;
+        margin-bottom: 24px;
+        font-size: clamp(28px, 8vw, 40px);
+        text-align: center;
+    }
 }

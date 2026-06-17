@@ -27,6 +27,27 @@ function Road() {
             </p>
           </div>
         </section>
+        <section className="road-ambitions">
+          <h2>MES AMBITIONS</h2>
+          <div className="road-ambitions__content">
+
+            <p>
+              Je recherche aujourd’hui des opportunités en tant qu’intégrateur web afin de continuer à développer mes compétences sur des projets concrets et variés.
+            </p>
+
+            <p>
+              Je suis particulièrement attiré par la création d’interfaces utilisateur modernes, accessibles et performantes avec React et les technologies du front-end.
+            </p>
+
+            <p>
+              Peu importe la taille de l’entreprise, l’essentiel pour moi est d’évoluer au sein d’une équipe motivée et de contribuer à des projets stimulants.
+            </p>
+
+            <p>
+              Je reste ouvert aux opportunités en alternance comme aux missions professionnelles qui me permettront de continuer à apprendre et à relever de nouveaux défis.
+            </p>
+          </div>
+        </section>
       </main>
 
       <Footer />
