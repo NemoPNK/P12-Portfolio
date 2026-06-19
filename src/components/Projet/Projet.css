@@ -11,10 +11,11 @@
 .project-card__title {
   margin-bottom: 40px;
   font-size: clamp(36px, 4vw, 64px);
-  background-color: #3564ff;
-  height: 85px;
+  background-color: rgba(53, 53, 53, 0.7);
+  border: solid 7px #3564ff;
+  height: 100px;
   width: 80%;
-  border-radius: 30px;
+  border-radius: 50px;
   display: flex;
   justify-content: center;
   align-items: center;

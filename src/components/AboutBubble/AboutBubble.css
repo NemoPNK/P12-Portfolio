@@ -73,11 +73,24 @@
     font-size: clamp(26px, 7vw, 36px);
   }
 
+  .about-bubble__content {
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .about-bubble__text {
-    width: 85%;
-    min-height: 226px;
-    padding: 25px 0;
+    width: 90%;
+    min-height: 150px;
+    margin: 0 auto;
+    padding: 0;
     font-size: clamp(14px, 3.8vw, 18px);
     line-height: 1.2;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 }
