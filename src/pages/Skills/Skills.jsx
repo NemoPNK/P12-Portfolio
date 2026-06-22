@@ -18,8 +18,8 @@ function Skills() {
         <section className="skills-section">
           <div className="skills-bubbles">
             <RoueBubble
-              title={selectedSkill ? selectedSkill.name : 'Aucune compétence sélectionnée'}
-              text={selectedSkill ? selectedSkill.description : 'Aucune compétence sélectionnée.'}
+              title={selectedSkill ? selectedSkill.name : 'Choisissez une compétence'}
+              text={selectedSkill ? selectedSkill.description : 'Sélectionnez une compétence sur la roue pour découvrir les technologies, outils et connaissances que je maîtrise.'}
             />
           </div>
 
