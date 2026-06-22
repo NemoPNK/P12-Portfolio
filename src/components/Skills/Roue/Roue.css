@@ -28,14 +28,20 @@
   filter: brightness(1.3);
 }
 
-.roue__item--selected .roue__segment {
+.roue__item:focus {
+  outline: none;
+}
+
+.roue__item:focus-visible .roue__segment {
   stroke: white;
   stroke-width: 5px;
   stroke-linejoin: round;
 }
 
-.roue__logo {
-  pointer-events: none;
+.roue__item--selected .roue__segment {
+  stroke: white;
+  stroke-width: 5px;
+  stroke-linejoin: round;
 }
 
 .roue__label {

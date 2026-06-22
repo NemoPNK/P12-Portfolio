@@ -84,18 +84,16 @@ function Roue({ selectedSkill, onSelectSkill }) {
 
   const [hoveredSkill, setHoveredSkill] = useState(null)
 
-  const prioritySkill = hoveredSkill || selectedSkill?.name
-
-  const orderedSkills = prioritySkill
+  const orderedSkills = selectedSkill
     ? [
-        ...skills.filter((skill) => skill.name !== prioritySkill),
-        skills.find((skill) => skill.name === prioritySkill),
+        ...skills.filter((skill) => skill.name !== selectedSkill.name),
+        selectedSkill,
       ]
     : skills
 
   return (
     <div className="roue">
-      <svg className="roue__svg" viewBox="0 0 480 480" aria-label="Roue des compétences">
+      <svg className="roue__svg" viewBox="0 0 480 480" role="list" aria-label="Roue des compétences">
         {orderedSkills.map((skill) => {
           const index = skills.findIndex((currentSkill) => currentSkill.name === skill.name)
           const startAngle = -Math.PI / 2 + index * angleStep
@@ -107,10 +105,23 @@ function Roue({ selectedSkill, onSelectSkill }) {
           return (
             <g
               key={skill.name}
+              role="button"
+              focusable="true"
+              tabIndex={0}
+              aria-label={`Sélectionner la compétence ${skill.name}`}
+              aria-pressed={isSelected}
               className={isSelected ? 'roue__item roue__item--selected' : 'roue__item'}
               onMouseEnter={() => setHoveredSkill(skill.name)}
               onMouseLeave={() => setHoveredSkill(null)}
+              onFocus={() => {}}
+              onBlur={() => {}}
               onClick={() => onSelectSkill(skill)}
+              onKeyDown={(event) => {
+                if (event.key === 'Enter' || event.key === ' ') {
+                  event.preventDefault()
+                  onSelectSkill(skill)
+                }
+              }}
             >
               <path
                 className="roue__segment"
