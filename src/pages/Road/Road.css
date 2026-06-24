@@ -56,9 +56,8 @@
     width: 100%;
     margin: 50px 0px 50px 0px;
     color: white;
-    text-align: left;
     font-size: clamp(32px, 6vw, 60px);
-    text-align: center;
+    padding: 0px 0px 0px 5%;
 }
 
 @media (max-width: 1180px) {
@@ -83,6 +82,10 @@
     .road-introduction__content p,
     .road-ambitions__content p {
         font-size: clamp(20px, 3vw, 32px);
+    }
+
+    .road-ambitions>h2 {
+        text-align: center;
     }
 }
 
